@@ -1,0 +1,236 @@
+nav {
+  width: 100%;
+  margin: auto;
+  background-color: darkred;
+  color: white;
+  display: flex;
+  font-size: 18px;
+  position: absolute;
+  border-bottom: 3px solid whitesmoke;
+}
+nav ul {
+  list-style-type: none;
+  display: inline-flex;
+  margin: 4px;
+  float: right;
+  margin-left: 60%;
+}
+nav li {
+  margin-left: 8px;
+  position: relative;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5px;
+}
+.hero .cssbox {
+  display: flex;
+  width: 49%;
+  height: 50vh;
+  float: left;
+  background-color: lightblue;
+  justify-content: right;
+}
+.hero .htmlbox {
+  display: flex;
+  width: 49%;
+  height: 50vh;
+  float: right;
+  background-color: orange;
+  justify-content: left;
+}
+.hero .html {
+  margin-top: 30vh;
+  width: 40%;
+  height: 30%;
+}
+.hero .css {
+  margin-top: 25vh;
+  width: 40%;
+  height: 50%;
+}
+
+.firstrow {
+  display: flex;
+  width: 100%;
+}
+.firstrow .box {
+  display: flex;
+  background-color: darkred;
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+  justify-content: center;
+}
+.firstrow .box p {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin: auto;
+}
+.firstrow .box1 {
+  display: flex;
+  background-color: darkblue;
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+}
+.firstrow .box1 p {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin: auto;
+}
+.firstrow aside {
+  background-color: orange;
+  height: 25vh;
+}
+.firstrow aside hr {
+  border: 1px dashed black;
+}
+
+.lorem {
+  -moz-column-count: 2;
+       column-count: 2;
+  width: 66%;
+  margin: auto;
+  margin-top: 2px;
+  margin-left: 20px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+}
+.boxes .box2 {
+  display: flex;
+  background-color: darkgoldenrod;
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+  justify-content: center;
+}
+.boxes .box2 p {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin: auto;
+}
+.boxes .box3 {
+  display: flex;
+  background-color: green;
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+  justify-content: center;
+}
+.boxes .box3 p {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin: auto;
+}
+.boxes .box4 {
+  display: flex;
+  background-color: darkred;
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+  justify-content: center;
+}
+.boxes .box4 p {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin: auto;
+}
+
+.lorem2 {
+  -moz-column-count: 3;
+       column-count: 3;
+}
+
+.boxes2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.boxes2 .box5 {
+  display: flex;
+  background-color: darkblue;
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+  justify-content: center;
+}
+.boxes2 .box5 p {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin: auto;
+}
+.boxes2 .box6 {
+  display: flex;
+  background-color: darkgoldenrod;
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+  justify-content: center;
+}
+.boxes2 .box6 p {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin: auto;
+}
+.boxes2 .box7 {
+  display: flex;
+  background-color: green;
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+  justify-content: center;
+}
+.boxes2 .box7 p {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin: auto;
+}
+
+.lorem3 {
+  -moz-column-count: 3;
+       column-count: 3;
+}
+
+footer {
+  background-color: darkblue;
+  width: 100%;
+  color: white;
+  margin: auto;
+}/*# sourceMappingURL=style.css.map */

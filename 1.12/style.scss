@@ -1,0 +1,231 @@
+
+nav{
+    width: 100%;
+    margin: auto;
+    background-color: darkred;
+    color: white;
+    display: flex;
+    font-size: 18px;
+    position: absolute;
+    border-bottom: 3px solid whitesmoke;
+
+    ul{
+        list-style-type: none;
+        display: inline-flex;
+        margin: 4px;
+        float: right;
+        margin-left: 60%;
+    }
+    li{
+        margin-left: 8px;
+        position: relative;
+    }
+}
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+    .cssbox{
+        display: flex;
+        width: 49%;
+        height: 50vh;
+        float: left;
+        background-color: lightblue;
+        justify-content: right;
+    }
+    .htmlbox{
+        display: flex;
+        width: 49%;
+        height: 50vh;
+        float: right;
+        background-color: orange;
+        justify-content: left;
+    }
+    .html{
+        margin-top: 30vh;
+        width: 40%;
+        height: 30%;
+        
+    }
+    .css{
+        margin-top: 25vh;
+        width: 40%;
+        height: 50%;
+    }
+}
+
+.firstrow{
+    display: flex;
+    width: 100%;
+    .box{
+        display: flex;
+        background-color: darkred;
+        width: 300px;
+        height: 200px;
+        margin: 5px;
+        justify-content: center;
+        p{
+            display: flex;
+            justify-content: center;
+            vertical-align: middle;
+            text-align: center;
+            color: white;
+            width: 100%;
+            margin: auto;
+        }
+    }
+    .box1{
+        display: flex;
+        background-color: darkblue;
+        width: 300px;
+        height: 200px;
+        margin: 5px;
+        p{
+            display: flex;
+            justify-content: center;
+            vertical-align: middle;
+            text-align: center;
+            color: white;
+            width: 100%;
+            margin: auto;
+        }
+    }
+    aside{
+        background-color: orange;
+        height: 25vh;
+        hr{
+            border: 1px dashed black;
+        }
+    }
+}
+.lorem{
+    column-count: 2;
+    width: 66%;
+    margin: auto;
+    margin-top: 2px;
+    margin-left:20px ;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    .box2{
+        display: flex;
+        background-color: darkgoldenrod;
+        width: 300px;
+        height: 200px;
+        margin: 5px;
+        justify-content: center;
+        p{
+            display: flex;
+            justify-content: center;
+            vertical-align: middle;
+            text-align: center;
+            color: white;
+            width: 100%;
+            margin: auto;
+        }
+    }
+    .box3{
+        display: flex;
+        background-color: green;
+        width: 300px;
+        height: 200px;
+        margin: 5px;
+        justify-content: center;
+        p{
+            display: flex;
+            justify-content: center;
+            vertical-align: middle;
+            text-align: center;
+            color: white;
+            width: 100%;
+            margin: auto;
+        }
+    }
+    .box4{
+        display: flex;
+        background-color: darkred;
+        width: 300px;
+        height: 200px;
+        margin: 5px;
+        justify-content: center;
+        p{
+            display: flex;
+            justify-content: center;
+            vertical-align: middle;
+            text-align: center;
+            color: white;
+            width: 100%;
+            margin: auto;
+        }
+    }
+}
+.lorem2{
+    column-count: 3;
+}
+.boxes2{
+    display: flex;
+    justify-content: space-evenly;
+    .box5{
+        display: flex;
+        background-color: darkblue;
+        width: 300px;
+        height: 200px;
+        margin: 5px;
+        justify-content: center;
+        p{
+            display: flex;
+            justify-content: center;
+            vertical-align: middle;
+            text-align: center;
+            color: white;
+            width: 100%;
+            margin: auto;
+        }
+    }
+    .box6{
+        display: flex;
+        background-color: darkgoldenrod;
+        width: 300px;
+        height: 200px;
+        margin: 5px;
+        justify-content: center;
+        p{
+            display: flex;
+            justify-content: center;
+            vertical-align: middle;
+            text-align: center;
+            color: white;
+            width: 100%;
+            margin: auto;
+        }
+    }
+    .box7{
+        display: flex;
+        background-color: green;
+        width: 300px;
+        height: 200px;
+        margin: 5px;
+        justify-content: center;
+        p{
+            display: flex;
+            justify-content: center;
+            vertical-align: middle;
+            text-align: center;
+            color: white;
+            width: 100%;
+            margin: auto;
+        }
+    }
+}
+.lorem3{
+    column-count: 3;
+}
+
+footer{
+    background-color: darkblue;
+    width: 100%;
+    color: white;
+    margin: auto;
+}
