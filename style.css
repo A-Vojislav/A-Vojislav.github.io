@@ -1,0 +1,18 @@
+*{
+    margin: auto;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    font: 3em;
+}
+h2{
+    text-align: center;
+}
+
+.pocetni{
+    display: flex;
+    flex-direction: column;
+    border: 3px dashed green;
+}
