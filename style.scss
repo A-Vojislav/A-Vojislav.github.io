@@ -8,27 +8,12 @@ body{
         width: 200px;
         height: 200px;
     }
-    button{
-        text-decoration: none;
-        a:link{
-            text-decoration: none;
-        }
-        a:visited{
-            text-decoration: none;
-        }
-        a:hover{
-            text-decoration: none;
-            background-color: darkgray;
-        }
-        a:active{
-            text-decoration: none;
-        }
-    }
 }
 main{
     display: flex;
     justify-content: space-around;
     margin-top: 5%;
+
     .pocetni{
         display: flex;
         flex-direction: column;
@@ -47,6 +32,16 @@ main{
         margin-top: 5%;
         border: 3px inset whitesmoke;
     }
+    .mostWanted{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 5%;
+        margin: auto;
+        margin-top: 5%;
+        border: 3px inset whitesmoke;
+        }
+    
 }
 @media only screen and (max-width: 600px) {
     main{
