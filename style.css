@@ -1,33 +1,58 @@
-*{
-    margin: auto;
+body {
+  background-color: rgb(27, 27, 27);
+  color: whitesmoke;
+  text-align: center;
+  max-width: 960px;
+  margin: auto;
 }
-button{
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1.2em;
+body img {
+  width: 200px;
+  height: 200px;
 }
-button:hover{
-    background-color: beige;
+body button {
+  text-decoration: none;
 }
-h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    margin-bottom: 20px;
-    font: 3em;
+body button a:link {
+  text-decoration: none;
 }
-h2{
-    text-align: center;
+body button a:visited {
+  text-decoration: none;
+}
+body button a:hover {
+  text-decoration: none;
+  background-color: darkgray;
+}
+body button a:active {
+  text-decoration: none;
 }
 
-.pocetni{
-    display: flex;
-    flex-direction: column;
-    border: 3px dashed green;
-    margin: auto;
-    margin-bottom: 10px;
+main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
 }
-.projekat1911{
-    display: flex;
-    flex-direction: column;
-    border: 3px dashed blue;
+main .pocetni {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 5%;
+  margin: auto;
+  margin-top: 5%;
+  border: 3px inset whitesmoke;
 }
+main .projekat1911 {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 5%;
+  margin: auto;
+  margin-top: 5%;
+  border: 3px inset whitesmoke;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    flex-direction: column;
+    padding: 10%;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,10 +1,9 @@
-body{
-  max-width: 960px;
-  margin: auto;
+* {
+  max-width: 800px;
 }
+
 nav {
   width: 100%;
-  max-width: 960px;
   margin: auto;
   background-color: darkred;
   color: white;
