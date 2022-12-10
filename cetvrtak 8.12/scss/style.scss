@@ -1,0 +1,209 @@
+:root{
+    --pozadina: rgb(27, 27, 99);
+    --drugapozadina: rgba(9, 167, 128, 0.63); 
+}
+
+nav{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: var(--pozadina) ;
+
+    p{
+        color: white; 
+        font-weight: bolder;
+        width: fit-content;
+     }
+    .nav{
+        display: none;
+    }
+    .dropdown{
+        display: inline-flex;
+        justify-content: flex-end;
+        button{
+        border-radius: 15px;
+        border-color: white;
+        background-color: var(--pozadina);
+        }
+    }
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--drugapozadina);
+    color: white;
+    img{
+        padding-top: 20vh;
+        width: 40%;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+    hr {
+        text-align: center; 
+        line-height: 5px; 
+        height: 1px; 
+        font-size: 2em; 
+        border-style: solid;
+        border-color: white;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 5px;
+        overflow: visible;
+        width: 40%;
+        margin-top: 3vh;
+    }
+      
+      hr:after {
+        content: "☆"; 
+        color: white;
+        display: inline; 
+        background-color: var(--drugapozadina);
+      }
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    h2{
+        margin-top: 3vh;
+        text-align: center;
+    }
+    .images{
+        justify-content: center;
+        text-align: center;
+        img{
+            width: 200px;
+            margin: 2vh;
+            
+        }
+    }
+    hr {
+        text-align: center; 
+        line-height: 5px; 
+        height: 1px; 
+        font-size: 2em; 
+        border-style: solid;
+        border-color: black;        
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 5px;
+        overflow: visible;
+        width: 40%;
+    }
+      
+      hr:after {
+        content: "☆"; 
+        color: white;
+        display: inline; 
+        background-color: black;
+      }
+}
+
+.about{
+    background-color: var(--drugapozadina);
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+    h2{
+        text-align: center;
+    }
+    hr {
+        text-align: center; 
+        line-height: 5px; 
+        height: 1px; 
+        font-size: 2em; 
+        border-style: solid;
+        border-color: white;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 5px;
+        overflow: visible;
+        width: 40%;
+        margin-top: 3vh;
+    }
+      
+      hr:after {
+        content: "☆"; 
+        color: white;
+        display: inline; 
+        background-color: var(--drugapozadina);
+      }
+      p{
+        width: 70%;
+        margin: auto;
+        font-size: large;
+      }
+      button{
+        width: fit-content;
+        flex-direction: row;
+        background-color: var(--drugapozadina);
+        border-color: white;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 5vh;
+      }
+}
+.forma{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    form{
+        width: 70%;
+        margin: auto;
+    }
+    hr {
+        text-align: center; 
+        line-height: 5px; 
+        height: 1px; 
+        font-size: 2em; 
+        border-style: solid;
+        border-color: black;        
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 5px;
+        overflow: visible;
+        width: 40%;
+    }
+      
+      hr:after {
+        content: "☆"; 
+        color: white;
+        display: inline; 
+        background-color: black;
+      }
+      button{
+        margin: 0px;
+        float: left;
+      }
+}
+    footer{
+        .row{
+            background-color: var(--pozadina);
+            color: white;
+        }
+        .template-demo{
+            button{
+                color: black;
+                border: 2px solid black;
+            }
+        }
+    }
+
+    @media screen and (min-width: 900px) {
+        nav 
+        {.dropdown{
+            display: none;
+        }
+        .nav{
+            display: inline-flex;
+        }
+        ul{
+            display: flex;
+        }
+    }}
