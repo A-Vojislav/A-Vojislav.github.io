@@ -5,6 +5,11 @@ body {
   max-width: 960px;
   margin: auto;
 }
+body button {
+  border-radius: 15px;
+  background-color: antiquewhite;
+  width: 300px;
+}
 body img {
   width: 200px;
   height: 200px;
