@@ -12,7 +12,9 @@ body img {
 
 main {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  margin: auto;
   margin-top: 5%;
 }
 main .pocetni {
@@ -34,6 +36,15 @@ main .projekat1911 {
   border: 3px inset whitesmoke;
 }
 main .mostWanted {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 5%;
+  margin: auto;
+  margin-top: 5%;
+  border: 3px inset whitesmoke;
+}
+main .bitstudent {
   display: flex;
   flex-direction: column;
   width: 300px;

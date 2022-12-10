@@ -11,7 +11,9 @@ body{
 }
 main{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    margin: auto;
     margin-top: 5%;
 
     .pocetni{
@@ -33,6 +35,15 @@ main{
         border: 3px inset whitesmoke;
     }
     .mostWanted{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 5%;
+        margin: auto;
+        margin-top: 5%;
+        border: 3px inset whitesmoke;
+        }
+    .bitstudent{
         display: flex;
         flex-direction: column;
         width: 300px;
