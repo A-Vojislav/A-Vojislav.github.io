@@ -21,6 +21,7 @@ main{
     margin: auto;
     margin-top: 5%;
 
+   
     .pocetni{
         display: flex;
         flex-direction: column;
@@ -58,6 +59,30 @@ main{
         border: 3px inset whitesmoke;
         }
     
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    h2{
+        font-size: 2em;
+        padding: auto;
+        margin: auto;
+    }
+
+    
+    .movieThingy{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 5%;
+        margin: auto;
+        margin-top: 5%;
+        border: 3px inset whitesmoke;
+    }
 }
 @media only screen and (max-width: 600px) {
     main{
