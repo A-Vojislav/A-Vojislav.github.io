@@ -1,0 +1,25 @@
+.field{
+    width: 594px;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../Assets_Football/Field.png);
+    background-repeat:no-repeat;
+}
+
+.player{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+
+}
+a{
+    font-size: 2em;
+    border: 1px solid firebrick;
+    border-radius: 15px;
+}
+button{
+    font-size: 2em;
+    border-radius: 15px;
+}

@@ -1,0 +1,26 @@
+a{
+    font-size: 2em;
+    border: 1px solid firebrick;
+    border-radius: 15px;
+}
+.superMario{
+    width: 100%;
+    background-image: url(../SuperMarioAssets/bg.jpg);
+    height: 480px;
+}
+.staticMario{
+    position: absolute;
+    left: 49%;
+    top: 320px;
+    width: 80px;
+    z-index: 999;
+}
+
+.movingMario{
+    display: none;
+    position: absolute;
+    left: 49%;
+    top: 320px;
+    width: 70px;
+    z-index: 999;
+}
