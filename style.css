@@ -58,6 +58,15 @@ main .bitstudent {
   margin-top: 5%;
   border: 3px inset whitesmoke;
 }
+main .razni {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 5%;
+  margin: auto;
+  margin-top: 5%;
+  border: 3px inset whitesmoke;
+}
 
 aside {
   display: flex;
