@@ -1,13 +1,13 @@
-var playerPosition=document.getElementById('field');
-var playerInsert = document.getElementById('player');
-let buttonFunction= document.getElementById('stopMoving')
+const playerBox=document.getElementById('field');
+const player = document.getElementById('player');
+const button= document.getElementById('stopMoving')
 let movementEnabled=true;
 
 
 
 function playerPositionHandler (event){
-    var x = event.offsetX - 100;
-    var y = event.offsetY - 100;
+    let x = event.offsetX - 100;
+    let y = event.offsetY - 100;
     player.style.top=y+'px';
     player.style.left=x+'px';
 }
@@ -17,19 +17,15 @@ function buttonHandler(){
 
 
     if(movementEnabled){
-        playerPosition.removeEventListener('click', playerPositionHandler)
-        buttonFunction.textContent='Enable Movement';
+        playerBox.removeEventListener('click', playerPositionHandler)
+        button.textContent='Enable Movement';
         movementEnabled=false
     }else{
-        playerPosition.addEventListener('click', playerPositionHandler)
-        buttonFunction.textContent='Stop Moving';
+        playerBox.addEventListener('click', playerPositionHandler)
+        button.textContent='Stop Moving';
         movementEnabled=true
     }
 }
 
-buttonFunction.addEventListener('click', buttonHandler)
-
-
- if (movementEnabled) {
-        playerPosition.addEventListener('click', playerPositionHandler)
-    }
+button.addEventListener('click', buttonHandler)
+playerBox.addEventListener('click', playerPositionHandler)
