@@ -6,6 +6,8 @@ a{
 .superMario{
     width: 100%;
     background-image: url(../SuperMarioAssets/bg.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
     height: 480px;
 }
 .staticMario{

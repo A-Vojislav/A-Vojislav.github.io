@@ -38,11 +38,12 @@ const chatRoomOutput=document.getElementById('output')
 const addMessageChatRoomButton= document.getElementById('submit')
 const inputText=document.getElementById('input')
 let outputMemory=[];
+
 function addMessageHandler (){
     chatRoomOutput.innerHTML+=`
     <p>${inputText.value}</p>
     `
-
+    inputText.value='';
 }
 
 addMessageChatRoomButton.addEventListener('click', addMessageHandler)
